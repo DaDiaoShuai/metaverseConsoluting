@@ -1,0 +1,64 @@
+{
+	"About": {
+		"title": "About",
+		"lastUpdated": "This example was updated {lastUpdatedRelative} ({lastUpdated, date, short})."
+	},
+	"Team": {
+		"title": "Our Team",
+		"lastUpdated": "This example was updated {lastUpdatedRelative} ({lastUpdated, date, short})."
+	},
+	"Service": {
+		"title": "Services",
+		"lastUpdated": "This example was updated {lastUpdatedRelative} ({lastUpdated, date, short})."
+	},
+	"Contact": {
+		"address": "Minhang, Shanghai",
+		"phone": "11234",
+		"email": "bj@gmail.com"
+	},
+	"Index": {
+		"title": "Home",
+		"brand": "Metaverse Consulting",
+		"titles": {
+			"service": "Our Services",
+			"whatWeDo": "What We Do",
+			"about": "About Company",
+			"clients": "Clients",
+			"team": "Our Team"
+		},
+		"overview": "Crypto·WEB3 Global Compliance Service Provider",
+		"contents": {
+			"service": "<p>We provide full spectrum blockchain service, including:</p><ul><li>License application: We understand that navigating the complex world of cryptocurrency can be a challenge. That's why we offer license application services to help you ensure that your business is fully compliant with all relevant regulations.</li><li>Company registration: Starting a new business in the world of cryptocurrency can be overwhelming. Our team of experts is here to guide you through the process of company registration and help you get your business up and running.Legal documents: Our team of experienced lawyers can help you draft legal documents that are tailored to your specific needs. From terms of service to privacy policies, we have you covered.</li><li>Comprehensive blockchain services: Whether you're looking to launch an ICO, conduct a token sale, or develop smart contracts, our team of experts has the knowledge and experience to help you succeed in the fast-paced world of cryptocurrency.</li><li>Overseas foundations: Expanding your business into new markets can be a challenge, especially when dealing with complex regulatory landscapes. Our team specializes in helping businesses establish overseas foundations and navigate the intricacies of international business.</li><li>At our crypto consulting service, we are committed to providing you with the highest level of service and expertise. Contact us today to learn more about how we can help you achieve your business goals in the exciting world of cryptocurrency and blockchain technology.</li></ul>",
+			"whatWeDo": "whatwedowhatwedowhatwedowhatwedowhatwedowhatwedowhatwedowhatwedo",
+			"about": "aboutcompanyaboutcompanyaboutcompanyaboutcompany",
+			"clients": "clientclientclientclientclientclient",
+			"team": {
+				"jayji": "<em>Jay Ji, CFA, CPA.</em> Former Huobi Head of Financial Products and Director of its Gibraltar regulated subsidiary developing crypto based loan business. Traded complex risk products including CDO as Structured Credit Trader in BNP Paribas New York office. Graduated from New York University with MBA degree.",
+				"MichelleBi": "<em>Michelle Bi.</em> Former Huobi Head of Financial Products and Director of its Gibraltar regulated subsidiary developing crypto based loan business. Traded complex risk products including CDO as Structured Credit Trader in BNP Paribas New York office. Graduated from New York University with MBA degree."
+			}
+		},
+		"description": "<p>Only the minimum of <code>{locale}</code> messages are loaded to render this page.</p><p>These namespaces are available:</p>"
+	},
+	"Navigation": {
+		"brand": "Metaverse Consulting",
+		"index": "Home",
+		"service": "Services",
+		"about": "About Company",
+		"team": "Team",
+		"switchLocale": "Switch to {locale, select, zh {Chinese} en {English} other {Unknown}}"
+	},
+	"NotFound": {
+		"title": "Sorry, this page could not be found."
+	},
+	"PageLayout": {
+		"pageTitle": "Metaverse Consulting"
+	},
+	"StrictTypes": {
+		"nested": {
+			"hello": "Hello",
+			"another": {
+				"level": "Level"
+			}
+		}
+	}
+}

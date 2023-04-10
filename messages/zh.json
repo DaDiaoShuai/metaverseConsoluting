@@ -1,0 +1,58 @@
+{
+	"About": {
+		"title": "关于我们",
+		"lastUpdated": "This example was updated {lastUpdatedRelative} ({lastUpdated, date, short})."
+	},
+	"Contact": {
+		"address": "上海市闵行区",
+		"phone": "11234",
+		"email": "bj@gmail.com"
+	},
+	"Team": {
+		"title": "团队介绍",
+		"lastUpdated": "This example was updated {lastUpdatedRelative} ({lastUpdated, date, short})."
+	},
+	"Service": {
+		"title": "我们的服务",
+		"lastUpdated": "This example was updated {lastUpdatedRelative} ({lastUpdated, date, short})."
+	},
+	"Index": {
+		"title": "首页",
+		"brand": "币及咨询",
+		"titles": {
+			"service": "服务介绍",
+			"whatWeDo": "我们能做什么",
+			"about": "关于币及",
+			"clients": "客户"
+		},
+		"overview": "Crypto·WEB3全球合规服务商",
+		"contents": {
+			"service": "<p>海外基金会·加密基金合规</p>",
+			"whatWeDo": "我们能做什么",
+			"about": "关于币及",
+			"clients": "客户"
+		}
+	},
+	"Navigation": {
+		"brand": "币及咨询",
+		"index": "首页",
+		"service": "服务介绍",
+		"about": "关于我们",
+		"team": "团结介绍",
+		"switchLocale": "切换至{locale, select, zh {Chinese} en {英语} other {Unknown}}"
+	},
+	"NotFound": {
+		"title": "Sorry, this page could not be found."
+	},
+	"PageLayout": {
+		"pageTitle": "币及咨询"
+	},
+	"StrictTypes": {
+		"nested": {
+			"hello": "Hello",
+			"another": {
+				"level": "Level"
+			}
+		}
+	}
+}

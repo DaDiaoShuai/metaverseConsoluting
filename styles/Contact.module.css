@@ -1,0 +1,26 @@
+.contact {
+	box-sizing: border-box;
+	padding: 0 20px;
+	height: 40px;
+	width: 100%;
+	color: white;
+	font-weight: 600;
+	background-color: #343a40;
+}
+
+.topSocials {
+	border-right: 1px solid white;
+	display: flex;
+	align-items: center;
+}
+
+.socialIcon {
+	margin-right: 20px;
+}
+
+.contacts {
+	margin-left: 20px;
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+}

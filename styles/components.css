@@ -1,0 +1,13 @@
+.section-title {
+	font-size: 2.6rem;
+	position: relative;
+}
+
+.section-title::after {
+	content: "";
+	width: 1.5em;
+	border-bottom: 4px solid #507ed2;
+	position: absolute;
+	left: 0;
+	bottom: -4px;
+}
