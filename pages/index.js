@@ -7,6 +7,7 @@ import PageLayout from "../components/PageLayout";
 import { useTranslations } from "next-intl";
 import SectionHead from "../components/SectionHead";
 import JayJi from "../images/jayji.jpeg";
+import MichelBi from "../images/michelbi.jpeg";
 import Image from "next/image";
 import { BsArrowDownCircle } from "react-icons/bs";
 import Link from "next/link";
@@ -100,31 +101,9 @@ const Index = () => {
 									<SectionHead title={t("titles.team")} />
 									<div className={Style.teamContent}>
 										<Image
-											src={JayJi}
-											style={{ width: "200px" }}
-										/>
-										<div
-											style={{
-												marginLeft: "10px",
-											}}
-										>
-											{t.rich("contents.team.jayji", {
-												em: (children) => (
-													<em>{children}</em>
-												),
-												ul: (children) => (
-													<ul>{children}</ul>
-												),
-												li: (children) => (
-													<li>{children}</li>
-												),
-											})}
-										</div>
-									</div>
-									<div className={Style.teamContent}>
-										<Image
-											src={JayJi}
-											style={{ width: "200px" }}
+											src={MichelBi}
+											// style={{ width: "200px" }}
+											width={200}
 										/>
 										<div
 											style={{
@@ -146,6 +125,30 @@ const Index = () => {
 												}
 											)}
 										</div>
+									</div>
+									<div className={Style.teamContent}>
+										<div
+											style={{
+												marginLeft: "10px",
+											}}
+										>
+											{t.rich("contents.team.jayji", {
+												em: (children) => (
+													<em>{children}</em>
+												),
+												ul: (children) => (
+													<ul>{children}</ul>
+												),
+												li: (children) => (
+													<li>{children}</li>
+												),
+											})}
+										</div>
+										<Image
+											src={JayJi}
+											// style={{ width: "200px" }}
+											width={200}
+										/>
 									</div>
 								</div>
 							</section>
