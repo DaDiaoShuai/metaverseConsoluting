@@ -100,14 +100,13 @@ const Index = () => {
 								<div>
 									<SectionHead title={t("titles.team")} />
 									<div className={Style.teamContent}>
-										<Image
-											src={MichelBi}
-											// style={{ width: "200px" }}
-											width={200}
-										/>
+										<div className={Style.imgBox}>
+											<Image src={MichelBi} />
+										</div>
 										<div
 											style={{
 												marginLeft: "10px",
+												flex: 1,
 											}}
 										>
 											{t.rich(
@@ -127,9 +126,13 @@ const Index = () => {
 										</div>
 									</div>
 									<div className={Style.teamContent}>
+										<div className={Style.imgBox}>
+											<Image src={JayJi} />
+										</div>
 										<div
 											style={{
 												marginLeft: "10px",
+												flex: 1,
 											}}
 										>
 											{t.rich("contents.team.jayji", {
@@ -144,11 +147,6 @@ const Index = () => {
 												),
 											})}
 										</div>
-										<Image
-											src={JayJi}
-											// style={{ width: "200px" }}
-											width={200}
-										/>
 									</div>
 								</div>
 							</section>
