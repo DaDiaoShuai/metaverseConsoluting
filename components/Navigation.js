@@ -40,7 +40,7 @@ const Navigation = () => {
 				{/* {t("switchLocale", { locale: otherLocale })} */}
 			</Link>
 			<Link
-				href="mailto:jingshuai7687@gmail.com?subject=[Website] Interested in knowing more about Metaverse Consoluting"
+				href={contacts.emailHref}
 				target="_blank"
 			>
 				<span>{contacts.email}</span>

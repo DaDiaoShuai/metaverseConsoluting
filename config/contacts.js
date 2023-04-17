@@ -8,6 +8,8 @@ export const socials = {
 
 export const contacts = {
 	phone: "020-1234567",
-	email: "bj@mail.com",
+	email: "contact@themetaverse.com",
 	address: "address",
+	emailHref:
+		"mailto:contact@themetaverse.com?subject=[Website] Interested in knowing more about Metaverse Consoluting",
 };
