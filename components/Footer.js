@@ -1,7 +1,7 @@
 const Footer = () => {
 	return (
 		<div style={{ display: "flex", justifyContent: "space-between" }}>
-			©2023 by Metaverse Consoluting
+			©2025 by Metaverse Consulting
 		</div>
 	);
 };
